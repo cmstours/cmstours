@@ -23,13 +23,20 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:10px 30px;
-z-index:1000;
 }
 
 .logo{display:flex;align-items:center;color:#fff;gap:10px;}
-.logo img{height:45px;}
+.logo img{
+height:45px;
+border-radius:6px;
+}
 
-nav a{color:#fff;margin-left:20px;text-decoration:none;}
+/* NAV */
+nav a{
+color:#fff;
+margin-left:20px;
+text-decoration:none;
+}
 
 /* HERO */
 .hero{
@@ -56,7 +63,7 @@ text-decoration:none;
 font-weight:600;
 }
 
-/* SERVICES */
+/* SECTION */
 .section{padding:60px 20px;text-align:center;}
 .grid{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
 
@@ -68,49 +75,6 @@ box-shadow:0 5px 15px rgba(0,0,0,0.1);
 width:250px;
 }
 
-/* TRUST */
-.trust{
-background:#fff;
-padding:50px;
-text-align:center;
-}
-
-.trust h2{margin-bottom:20px;}
-
-.badges{
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
-}
-
-/* REVIEWS */
-.reviews{
-background:#f4f6f9;
-padding:50px;
-text-align:center;
-}
-
-.review-box{
-background:#fff;
-padding:20px;
-margin:10px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-/* GALLERY */
-.gallery{
-padding:50px;
-text-align:center;
-}
-
-.gallery img{
-width:300px;
-border-radius:10px;
-margin:10px;
-}
-
 /* CONTACT */
 .contact{
 background:#0d1b2a;
@@ -119,7 +83,10 @@ padding:50px;
 text-align:center;
 }
 
-.contact a{color:#fca311;text-decoration:none;}
+.contact a{
+color:#fca311;
+text-decoration:none;
+}
 
 /* FLOAT */
 .whatsapp{
@@ -161,7 +128,7 @@ padding:15px;
 <!-- HERO -->
 <section class="hero">
 <h1>Ahmedabad Taxi Service – 24x7</h1>
-<p>Fast • Safe • Affordable</p>
+<p>Airport Pickup • Local • Outstation Cab</p>
 
 <a href="tel:9974626520" class="btn">📞 Call Now</a>
 <a href="https://wa.me/919974626520" class="btn">💬 WhatsApp Booking</a>
@@ -179,32 +146,15 @@ padding:15px;
 </div>
 </section>
 
-<!-- TRUST -->
-<section class="trust">
-<h2>Why Choose Us?</h2>
+<!-- PRICING -->
+<section class="section" id="pricing">
+<h2>Pricing</h2>
 
-<div class="badges">
-<div>✔ 24x7 Service</div>
-<div>✔ Trusted Drivers</div>
-<div>✔ Affordable Rates</div>
-<div>✔ Instant Booking</div>
+<div class="grid">
+<div class="card"><h3>Airport</h3><p>₹499*</p></div>
+<div class="card"><h3>Local</h3><p>₹1999</p></div>
+<div class="card"><h3>Outstation</h3><p>₹12/km</p></div>
 </div>
-</section>
-
-<!-- REVIEWS -->
-<section class="reviews">
-<h2>Customer Reviews</h2>
-
-<div class="review-box">⭐️⭐️⭐️⭐️⭐️ Excellent service, very polite driver.</div>
-<div class="review-box">⭐️⭐️⭐️⭐️⭐️ Best taxi in Ahmedabad!</div>
-</section>
-
-<!-- GALLERY -->
-<section class="gallery">
-<h2>Our Cars</h2>
-
-<img src="https://images.unsplash.com/photo-1549924231-f129b911e442">
-<img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
 </section>
 
 <!-- CONTACT -->
@@ -212,17 +162,23 @@ padding:15px;
 <h2>Contact Us</h2>
 
 <p>📞 <a href="tel:9974626520">9974626520</a></p>
-<p>📧 <a href="mailto:cmstourstravelsahmedabad@gmail.com">Email</a></p>
+
+<p>📧 <a href="mailto:cmstourstravelsahmedabad@gmail.com">
+cmstourstravelsahmedabad@gmail.com
+</a></p>
+
 <p>📍 Ahmedabad, Gujarat</p>
 
-<a href="tel:9974626520" class="btn">Call Now</a>
-<a href="https://wa.me/919974626520" class="btn">WhatsApp</a>
+<a href="tel:9974626520" class="btn">📞 Call Now</a>
+<a href="https://wa.me/919974626520" class="btn">💬 WhatsApp</a>
+
 </section>
 
+<!-- FLOAT BUTTON -->
 <a href="https://wa.me/919974626520" class="whatsapp">Chat</a>
 
 <footer class="footer">
-© 2026 CMS Tours & Travels
+© 2026 CMS Tours & Travels | All Rights Reserved
 </footer>
 
 </body>
