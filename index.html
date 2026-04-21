@@ -15,16 +15,40 @@ body{margin:0;font-family:Arial;background:#f4f6f9;}
 header{
 background:#0d1b2a;
 color:#fff;
-padding:15px;
+padding:12px 25px;
 display:flex;
 justify-content:space-between;
 align-items:center;
+flex-wrap:wrap;
 }
 
-nav a{color:#fff;margin-left:15px;text-decoration:none;}
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
 
-.logo{display:flex;align-items:center;}
-.logo img{height:40px;margin-right:10px;}
+.logo img{
+height:60px;        /* logo full show */
+width:auto;
+object-fit:contain;
+background:#fff;    /* white bg fix */
+padding:4px;
+border-radius:6px;
+}
+
+.brand h1{
+font-size:20px;
+margin:0;
+white-space:nowrap;  /* name cut nahi thay */
+}
+
+nav a{
+color:#fff;
+margin-left:20px;
+text-decoration:none;
+font-size:14px;
+}
 
 /* HERO */
 .hero{
