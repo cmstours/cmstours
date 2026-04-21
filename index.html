@@ -70,6 +70,34 @@ font-weight:bold;
 background:#fca311;
 color:#000;
 }
+  .reviews{
+padding:40px 20px;
+text-align:center;
+background:#f5f7fa;
+}
+
+.reviews h2{
+margin-bottom:20px;
+font-size:28px;
+}
+
+.review-card{
+background:#fff;
+padding:15px;
+margin:10px auto;
+border-radius:12px;
+max-width:300px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+font-size:15px;
+}
+
+/* MOBILE FIX */
+@media(max-width:768px){
+.review-card{
+width:90%;
+font-size:14px;
+}
+}
 /* HERO */
 .hero{
 background:url('https://images.unsplash.com/photo-1502877338535-766e1452684a') center/cover;
@@ -254,13 +282,22 @@ font-size:14px;
 </div>
 
 <!-- REVIEWS -->
-<div class="section">
+<section class="reviews">
 <h2>Customer Reviews</h2>
 
-<div class="review">⭐⭐⭐⭐⭐ Best taxi service in Ahmedabad</div>
-<div class="review">⭐⭐⭐⭐⭐ Clean car & polite driver</div>
-<div class="review">⭐⭐⭐⭐⭐ On time pickup</div>
+<div class="review-card">
+★★★★★ Best taxi service in Ahmedabad
 </div>
+
+<div class="review-card">
+★★★★★ Clean car & polite driver
+</div>
+
+<div class="review-card">
+★★★★★ On time pickup
+</div>
+
+</section>
 
 <!-- GALLERY -->
 <div class="section gallery">
