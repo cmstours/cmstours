@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CMS Tours & Travels Ahmedabad</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#f4f6f9;color:#333;scroll-behavior:smooth;}
+
+/* HEADER */
+header{
+position:sticky;
+top:0;
+background:#0d1b2a;
+padding:10px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+color:#fff;
+}
+
+.logo img{
+height:50px;
+}
+
+nav a{
+color:#fff;
+margin-left:20px;
+text-decoration:none;
+font-size:14px;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+url('https://images.unsplash.com/photo-1502877338535-766e1452684a');
+background-size:cover;
+background-position:center;
+color:#fff;
+text-align:center;
+padding:140px 20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+/* BUTTON */
+.btn{
+display:inline-block;
+margin:10px;
+padding:12px 25px;
+background:#fca311;
+color:#000;
+text-decoration:none;
+border-radius:6px;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ffba42;
+}
+
+/* SECTION */
+.section{
+padding:70px 20px;
+text-align:center;
+}
+
+.section h2{
+margin-bottom:30px;
+font-size:28px;
+}
+
+/* CARDS */
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+}
+
+.card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+width:260px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* CONTACT */
+.contact{
+background:#0d1b2a;
+color:#fff;
+padding:50px;
+text-align:center;
+}
+
+.contact a{
+color:#fca311;
+text-decoration:none;
+}
+
+/* FLOAT BUTTON */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:12px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* FOOTER */
+.footer{
+background:#000;
+color:#aaa;
+text-align:center;
+padding:15px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+.hero h1{font-size:28px;}
+header{flex-direction:column;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+<img src="logo.png" alt="CMS Logo">
+<h2>CMS Tours</h2>
+</div>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#pricing">Pricing</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Ahmedabad Taxi Service – 24x7</h1>
+<p>Airport Pickup • Local • Outstation Cab</p>
+
+<a href="tel:9974626520" class="btn">📞 Call Now</a>
+<a href="https://wa.me/919974626520" class="btn">💬 WhatsApp Booking</a>
+</section>
+
+<section class="section" id="services">
+<h2>Our Services</h2>
+
+<div class="grid">
+<div class="card"><h3>Airport Pickup & Drop</h3></div>
+<div class="card"><h3>Local Taxi</h3></div>
+<div class="card"><h3>Outstation Trips</h3></div>
+<div class="card"><h3>Corporate Cab</h3></div>
+</div>
+</section>
+
+<section class="section" id="pricing">
+<h2>Pricing</h2>
+
+<div class="grid">
+<div class="card"><h3>Airport</h3><p>₹499*</p></div>
+<div class="card"><h3>Local</h3><p>₹1999</p></div>
+<div class="card"><h3>Outstation</h3><p>₹12/km</p></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+
+<p>📞 <a href="tel:9974626520">9974626520</a></p>
+<p>📧 <a href="mailto:info@cmstours.in">info@cmstours.in</a></p>
+<p>📍 Ahmedabad, Gujarat</p>
+
+<a href="tel:9974626520" class="btn">Call Now</a>
+<a href="https://wa.me/919974626520" class="btn">WhatsApp</a>
+</section>
+
+<a href="https://wa.me/919974626520" class="whatsapp">💬 Chat</a>
+
+<footer class="footer">
+<p>© 2026 CMS Tours & Travels | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
